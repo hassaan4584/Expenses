@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.example.prototype_phase_1" android:versionCode="1"
+	android:versionName="1.0">
+
+	<uses-sdk android:minSdkVersion="11" android:targetSdkVersion="18" />
+    <!-- Mandatory permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+	
+	<application android:allowBackup="true" android:icon="@drawable/transport"
+		android:label="@string/app_name" android:theme="@style/AppTheme">
+		<activity android:name="com.example.Expenses.Home"
+			android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.example.Expenses.AddExpense" />
+		<activity android:name="com.example.Expenses.Calculator" />
+				<activity android:name="com.example.Expenses.AddIncome" />
+		<activity android:name="com.example.Expenses.Accounts" />
+		<activity android:name="com.example.Expenses.Amount_AddExpense" />
+		<activity android:name="com.example.Expenses.Category_AddExpense" />
+		<activity android:name="com.example.Expenses.Date_AddExpense" />
+		<activity android:name="com.example.Expenses.Notes_AddExpense" />
+		<activity android:name="com.example.Expenses.User_Accounts" />
+		<activity android:name="com.example.Expenses.Add_pay_method" />
+		<activity android:name="com.example.Expenses.AddNewCategory" />
+		<activity android:name="com.example.Expenses.Expense_Status" />
+		
+		<activity android:name="com.google.ads.AdActivity"
+android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
+		
+										
+
+	</application>
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	 <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+	 <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	
+    <uses-permission android:name="android.permission.VIBRATE" />
+	 
+</manifest>
