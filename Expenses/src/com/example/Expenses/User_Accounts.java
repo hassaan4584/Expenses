@@ -36,6 +36,15 @@ public class User_Accounts extends Activity {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.user_accounts);
+		Button Linkedin = (Button) findViewById(R.id.Export_accounts);
+		Linkedin.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				startActivity(new Intent(User_Accounts.this, LinkedInSampleActivity.class));
+			}
+		});
 		List<Expense> mylist1=new ArrayList<Expense>();
 		Intent i=this.getIntent();
 		post=i.getIntExtra("position", post);

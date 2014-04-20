@@ -19,7 +19,7 @@
 		</activity>
 		<activity android:name="com.example.Expenses.AddExpense" />
 		<activity android:name="com.example.Expenses.Calculator" />
-				<activity android:name="com.example.Expenses.AddIncome" />
+		<activity android:name="com.example.Expenses.AddIncome" />
 		<activity android:name="com.example.Expenses.Accounts" />
 		<activity android:name="com.example.Expenses.Amount_AddExpense" />
 		<activity android:name="com.example.Expenses.Category_AddExpense" />
@@ -29,7 +29,8 @@
 		<activity android:name="com.example.Expenses.Add_pay_method" />
 		<activity android:name="com.example.Expenses.AddNewCategory" />
 		<activity android:name="com.example.Expenses.Expense_Status" />
-		
+		<activity android:name="com.example.Expenses.LinkedInSampleActivity"/>
+				
 		<activity android:name="com.google.ads.AdActivity"
 android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>
 		

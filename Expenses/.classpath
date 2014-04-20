@@ -6,5 +6,9 @@
 	<classpathentry kind="lib" path="libs/GoogleAdMobAdsSdk-6.4.1.jar"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="lib" path="G:/Semester 6 Spring 14/SMD/adt-bundle-windows-x86_64-20131030/Workplace/Expenses/libs/linkedin-j-android.jar"/>
+	<classpathentry kind="lib" path="G:/Semester 6 Spring 14/SMD/adt-bundle-windows-x86_64-20131030/Workplace/Expenses/libs/signpost-commonshttp4-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Semester 6 Spring 14/SMD/adt-bundle-windows-x86_64-20131030/Workplace/Expenses/libs/signpost-core-1.2.1.1.jar"/>
+	<classpathentry kind="lib" path="G:/Semester 6 Spring 14/SMD/adt-bundle-windows-x86_64-20131030/Workplace/Expenses/libs/signpost-jetty6-1.2.1.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
