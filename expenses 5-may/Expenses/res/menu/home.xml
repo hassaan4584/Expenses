@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/fbID"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/fb"
+        android:title="@string/fb"/>
+    <item
+        android:id="@+id/inID"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/in"
+        android:title="@string/in"/>
+    <item
+        android:id="@+id/gmailID"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/gmail"
+        android:title="@string/gmail"/>
+    
+    <item android:id="@+id/callID" 
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/sym_action_call"
+        android:title="@string/call"/>
+    <item
+        android:id="@+id/messageID"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/message"/>
+</menu>

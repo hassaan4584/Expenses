@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/background_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/btn_fblogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btn_get_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Profile"
+        android:visibility="gone" />
+    
+    <Button 
+        android:id="@+id/btn_fb_post_to_wall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publish on my wall"
+        android:visibility="gone"/>
+    
+    <Button
+        android:id="@+id/btn_fblogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" 
+        android:visibility="gone"/>
+    
+
+</LinearLayout>

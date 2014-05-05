@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/add_income_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@+id/add_income_textView"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/add_income_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/add_income_value"
+        android:layout_alignBottom="@+id/add_income_value"
+        android:layout_alignParentLeft="true"
+        android:text="TextView" />
+
+</RelativeLayout>

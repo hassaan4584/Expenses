@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/fbID"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/fb"
+        android:title="@string/fb"/>
+    <item
+        android:id="@+id/inID"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/in"
+        android:title="@string/in"/>
+    <item
+        android:id="@+id/gmailID"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/gmail"
+        android:title="@string/gmail"/>
+</menu>
